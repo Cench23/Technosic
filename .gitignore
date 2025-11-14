@@ -1,0 +1,11 @@
+Virtual Environment
+venv/
+pycache/
+
+File temporer
+temp/
+output/
+
+File OS
+.DS_Store
+Thumbs.db
