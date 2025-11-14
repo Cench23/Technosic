@@ -36,11 +36,11 @@ Ketergantungan Rumit (FFmpeg): Aplikasi ini bergantung pada FFmpeg v7.0 (Shared 
 
 Untuk menjalankan proyek ini di laptop Windows Anda, ikuti langkah-langkah environment setup berikut:
 
-**1. Fondasi (Python 3.11):**
+1. Fondasi (Python 3.11):
 
 Download dan install Python 3.11 (Pastikan centang Add to PATH).
 
-**2. Buat "Garasi" (VENV):**
+2. Buat "Garasi" (VENV):
 
 # Buat folder proyek
 mkdir ProyekTecnosic
@@ -53,7 +53,7 @@ py -3.11 -m venv venv
 .\venv\Scripts\activate
 
 
-**3. Install "Alat-Alat" (Libraries):**
+3. Install "Alat-Alat" (Libraries):
 
 # (Pastikan (venv) sudah aktif)
 pip install streamlit
@@ -67,7 +67,7 @@ pip install soundfile
 pip uninstall torchcodec
 
 
-**4. Install "Alat Berat" (FFmpeg v7.0 Manual):**
+4. Install "Alat Berat" (FFmpeg v7.0 Manual):
 
 Download: ffmpeg-7.0-full_build-shared.7z (HARUS yang -shared) dari link ini.
 
@@ -79,7 +79,7 @@ Copy SEMUA file (termasuk ffmpeg.exe dan semua file .dll).
 
 Paste semua file tersebut ke dalam folder venv Anda di: .\venv\Scripts\
 
-**5. Jalankan Aplikasi:**
+5. Jalankan Aplikasi:
 
 (Pastikan venv aktif dan FFmpeg sudah di-copy)
 
