@@ -1,0 +1,6 @@
+streamlit
+librosa
+torch
+torchaudio
+demucs
+soundfile
